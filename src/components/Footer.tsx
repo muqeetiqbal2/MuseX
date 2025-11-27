@@ -12,8 +12,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img src={logoDark} alt="MuseX Logo" className="h-10 w-10" />
-              <span className="text-2xl font-bold text-accent">MuseX</span>
+              <img src={logoDark} alt="MuseX Logo" className="h-10 w-35" />
+              {/* <span className="text-2xl font-bold text-accent">MuseX</span> */}
             </div>
             <p className="text-sm text-muted-foreground">
               Microservices Unified Solutions Experience

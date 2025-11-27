@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoLight from "@/assets/logo-neutral.png";
+import logoLight from "@/assets/logo-light.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,8 +37,8 @@ const Navigation = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3 group">
-            <img src={logoLight} alt="MuseX Logo" className="h-10 w-10 transition-transform group-hover:scale-110" />
-            <span className="text-2xl font-bold text-primary">MuseX</span>
+            <img src={logoLight} alt="MuseX Logo" className="h-10 w-35 transition-transform group-hover:scale-110" />
+            {/* <span className="text-2xl font-bold text-primary">MuseX</span> */}
           </Link>
 
           {/* Desktop Navigation */}
