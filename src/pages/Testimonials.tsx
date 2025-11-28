@@ -176,8 +176,503 @@ const testimonials: Testimonial[] = [
     review: "MuseX built a real-time analytics pipeline that processes 10TB daily. The insights we get now are instantaneous, giving us a massive competitive advantage.",
     projectDetails: "Real-Time Data Pipeline",
     results: ["10TB/day processing", "Real-time insights", "Sub-second query times"]
+  },
+
+  /* --- Extra reviews: each service now has 4 reviews total --- */
+
+  /* Web Development (3 added) */
+  {
+    id: 13,
+    name: "Olivia Brooks",
+    role: "Head of Growth",
+    company: "ShopMart",
+    companyLogo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9b?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Web Development",
+    review: "MuseX rebuilt our storefront with a headless approach — the improvements in conversion and content velocity were immediate.",
+    projectDetails: "Headless Commerce Migration",
+    results: ["50% faster releases", "Improved SEO", "Higher conversion rate"]
+  },
+  {
+    id: 14,
+    name: "Ethan Mills",
+    role: "Product Owner",
+    company: "EduStream",
+    companyLogo: "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9b?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "Web Development",
+    review: "Great engineering and pragmatic approach — the progressive web app they delivered improved retention considerably.",
+    projectDetails: "PWA for Online Learning",
+    results: ["2x repeat visits", "40% lower bounce", "Offline support"]
+  },
+  {
+    id: 15,
+    name: "Nadia Ali",
+    role: "Marketing Lead",
+    company: "LocalGoods",
+    companyLogo: "https://images.unsplash.com/photo-1543595267-73e6a1bca4c2?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Web Development",
+    review: "Fast delivery, solid testing and excellent collaboration. Our global traffic spikes are handled flawlessly now.",
+    projectDetails: "Global Retail Replatform",
+    results: ["Scalable infra", "Improved page loads", "Reliable releases"]
+  },
+
+  /* Mobile App Development (3 added) */
+  {
+    id: 16,
+    name: "Priya Desai",
+    role: "Head of Product",
+    company: "RideNow",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Mobile App Development",
+    review: "Their on-demand delivery app was robust and intuitive. Driver experience and tracking is flawless.",
+    projectDetails: "Rider & Customer Apps",
+    results: ["200K active users", "95% on-time delivery", "4.6 rating"]
+  },
+  {
+    id: 17,
+    name: "Omar Rahman",
+    role: "CTO",
+    company: "FitWear",
+    companyLogo: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9b?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "Mobile App Development",
+    review: "Good cross-platform experience and timely bug fixes. Minor UI polish needed but overall excellent app delivery.",
+    projectDetails: "Wearable Companion App",
+    results: ["10K+ devices paired", "Healthy retention", "Reliable sync"]
+  },
+  {
+    id: 18,
+    name: "Hannah Lee",
+    role: "Operations Head",
+    company: "FieldOps",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Mobile App Development",
+    review: "Offline-first capabilities were a game changer for our field teams — sync and conflict resolution worked flawlessly.",
+    projectDetails: "Field Inspection App",
+    results: ["90% productivity gain", "Zero data loss", "Great UX"]
+  },
+
+  /* Software Development (3 added) */
+  {
+    id: 19,
+    name: "Victor Huang",
+    role: "COO",
+    company: "LogiTrack",
+    companyLogo: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Software Development",
+    review: "Their supply chain platform cut our logistic costs and improved forecasting accuracy — highly skilled engineering team.",
+    projectDetails: "Supply Chain Suite",
+    results: ["15% cost reduction", "Integrated suppliers", "Better forecasts"]
+  },
+  {
+    id: 20,
+    name: "Lena Kovacs",
+    role: "Sales VP",
+    company: "BrightCRM",
+    companyLogo: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "Software Development",
+    review: "Custom CRM worked well and integrated nicely with our existing tools. Some feature backlog remains but progress is steady.",
+    projectDetails: "Custom CRM Platform",
+    results: ["Faster sales cycle", "Custom integrations", "Better tracking"]
+  },
+  {
+    id: 21,
+    name: "Ahmed Khan",
+    role: "Plant Manager",
+    company: "SteelWorks",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Software Development",
+    review: "Industrial IoT solution delivered real-time insights and anomaly detection that saved us multiple hours of downtime.",
+    projectDetails: "IoT Monitoring System",
+    results: ["20% downtime reduction", "Real-time alerts", "Multi-site deployment"]
+  },
+
+  /* UI/UX Designing (3 added) */
+  {
+    id: 22,
+    name: "Sofia Martinez",
+    role: "Head of Product",
+    company: "QuickForms",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "UI/UX Designing",
+    review: "Their mobile design language made prototyping painless and consistent across teams. Designers and devs love it.",
+    projectDetails: "Mobile Design System",
+    results: ["Faster prototyping", "Consistent UI", "Lower design debt"]
+  },
+  {
+    id: 23,
+    name: "Marco Silva",
+    role: "UX Researcher",
+    company: "InsightLab",
+    companyLogo: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "UI/UX Designing",
+    review: "User research program identified the exact UX friction points we needed to fix. Actionable insights delivered quickly.",
+    projectDetails: "User Research Initiative",
+    results: ["30% fewer support tickets", "Clear UX roadmap", "Improved retention"]
+  },
+  {
+    id: 24,
+    name: "Aisha Noor",
+    role: "Product Designer",
+    company: "MobiPay",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "UI/UX Designing",
+    review: "Accessible dashboard design dramatically improved usability for keyboard and screen-reader users.",
+    projectDetails: "Accessible Dashboard",
+    results: ["AAA compliance", "Improved adoption", "Lower legal risk"]
+  },
+
+  /* QA & Testing (3 added) */
+  {
+    id: 25,
+    name: "Marcus Bell",
+    role: "QA Lead",
+    company: "SecureApps",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "QA & Testing",
+    review: "Their E2E mobile test suite eliminated flaky tests and stabilized our CI pipeline.",
+    projectDetails: "Mobile E2E Automation",
+    results: ["70% fewer regressions", "Stable nightly runs", "Faster releases"]
+  },
+  {
+    id: 26,
+    name: "Yuki Tanaka",
+    role: "Performance Engineer",
+    company: "OptiScale",
+    companyLogo: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "QA & Testing",
+    review: "Performance testing uncovered bottlenecks we couldn't see — the remediation plan boosted throughput significantly.",
+    projectDetails: "Load Testing & Bottleneck Analysis",
+    results: ["Improved throughput", "SLA validation", "Reduced latency"]
+  },
+  {
+    id: 27,
+    name: "Olga Petrova",
+    role: "Security Manager",
+    company: "SafeNet",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "QA & Testing",
+    review: "Comprehensive security testing helped close critical gaps before production. Professional and thorough.",
+    projectDetails: "Security Testing Program",
+    results: ["Zero critical vulns", "Faster patching", "Compliance achieved"]
+  },
+
+  /* AI Automations (3 added) */
+  {
+    id: 28,
+    name: "Mikhail S.",
+    role: "Finance Director",
+    company: "AutoLedger",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "AI Automations",
+    review: "Invoice OCR and AP workflow reduced manual entry massively. ROI within months.",
+    projectDetails: "Invoice OCR & Workflow",
+    results: ["95% extraction accuracy", "70% faster AP", "Lower error rates"]
+  },
+  {
+    id: 29,
+    name: "Leila Haddad",
+    role: "Support Lead",
+    company: "GlobalTel",
+    companyLogo: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "AI Automations",
+    review: "Email triage automation saved our agents hours every day; suggestions are reliably accurate.",
+    projectDetails: "Email Triage Classifier",
+    results: ["60% automation rate", "Faster SLA adherence", "Higher productivity"]
+  },
+  {
+    id: 30,
+    name: "Gavin Morris",
+    role: "CFO",
+    company: "ChainTrade",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "AI Automations",
+    review: "RPA bots removed repetitive work and reduced manual errors in our reconciliations.",
+    projectDetails: "RPA for Finance",
+    results: ["Lower manual hours", "Error-free processes", "Fast ROI"]
+  },
+
+  /* AI Video Ads (3 added) */
+  {
+    id: 31,
+    name: "Claire Dupont",
+    role: "Head of Growth",
+    company: "GroceryNow",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "AI Video Ads",
+    review: "Automated video generator allowed us to launch region-specific creatives quickly and at scale.",
+    projectDetails: "Dynamic Product Video Generator",
+    results: ["1K creatives/week", "Lower CPM", "Better personalization"]
+  },
+  {
+    id: 32,
+    name: "Ravi Patel",
+    role: "Marketing Ops",
+    company: "TravelMate",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "AI Video Ads",
+    review: "Localization pipeline saved us weeks of manual dubbing and subtitling — quality was surprisingly high.",
+    projectDetails: "Localization Pipeline",
+    results: ["12 markets supported", "Faster launches", "Improved CTR"]
+  },
+  {
+    id: 33,
+    name: "Sima Noor",
+    role: "Creative Producer",
+    company: "AdWorks",
+    companyLogo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "AI Video Ads",
+    review: "A/B video variant testing helped us double down on high-performing creatives quickly.",
+    projectDetails: "Variant Testing System",
+    results: ["ROAS uplift", "Optimized templates", "Higher engagement"]
+  },
+
+  /* Animations (3 added) */
+  {
+    id: 34,
+    name: "Tomás Rivera",
+    role: "Head of Content",
+    company: "GadgetCo",
+    companyLogo: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Animations",
+    review: "The character animation series they produced captured tone and emotion perfectly. Audiences loved it.",
+    projectDetails: "Character Short Animation",
+    results: ["Festival selection", "High retention", "Follow-up commissions"]
+  },
+  {
+    id: 35,
+    name: "Anya Petrova",
+    role: "Product Marketing",
+    company: "HomeTech",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "Animations",
+    review: "Explainer micro-animations greatly improved onboarding completion rates—clear, concise, and fun.",
+    projectDetails: "Explainer Animation Series",
+    results: ["Higher onboarding completion", "Shorter time-to-value", "Multi-language support"]
+  },
+  {
+    id: 36,
+    name: "Diego Alvarez",
+    role: "Creative Lead",
+    company: "3DWorks",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Animations",
+    review: "Photoreal product demos reduced support tickets and helped customers understand assembly instantly.",
+    projectDetails: "Virtual Product Demo",
+    results: ["Reduced support calls", "Higher pre-orders", "Client praise"]
+  },
+
+  /* Short Films (3 added) */
+  {
+    id: 37,
+    name: "Hannah Kim",
+    role: "Producer",
+    company: "DocuWorks",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Short Films",
+    review: "Their documentary short was handled with sensitivity and cinematic skill—excellent storytelling.",
+    projectDetails: "Tech Documentary Short",
+    results: ["Festival screenings", "Press coverage", "Educational use"]
+  },
+  {
+    id: 38,
+    name: "Jeroen van Dijk",
+    role: "Brand Manager",
+    company: "LuxHome",
+    companyLogo: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "Short Films",
+    review: "Brand narrative short gave our campaign a strong emotional anchor—great production values.",
+    projectDetails: "Brand Narrative Short",
+    results: ["Viral boost", "Higher recall", "Partner streaming"]
+  },
+  {
+    id: 39,
+    name: "Priyanka Joshi",
+    role: "Education Director",
+    company: "LearnWell",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Short Films",
+    review: "Educational shorts were engaging and used effectively in classrooms. Production attention to detail was excellent.",
+    projectDetails: "Educational Short Series",
+    results: ["Used in schools", "High completion rate", "Sponsorships secured"]
+  },
+
+  /* Cloud & DevOps (3 added) */
+  {
+    id: 40,
+    name: "Sean O'Connor",
+    role: "Infrastructure Lead",
+    company: "FinCloud",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Cloud & DevOps",
+    review: "Infrastructure-as-Code suite made multi-region deployments replicable and safe. Excellent automation.",
+    projectDetails: "IaC Multi-Region",
+    results: ["Consistent infra", "Reduced drift", "Faster deployments"]
+  },
+  {
+    id: 41,
+    name: "Laila Ahmed",
+    role: "Cloud Architect",
+    company: "RetailX",
+    companyLogo: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "Cloud & DevOps",
+    review: "Cost optimization program made our cloud bills predictable and cut unnecessary spend.",
+    projectDetails: "Cost Optimization",
+    results: ["40% cost cut", "Rightsized infra", "Reserved instance strategy"]
+  },
+  {
+    id: 42,
+    name: "Jonas Berg",
+    role: "SRE Manager",
+    company: "MediaFlow",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Cloud & DevOps",
+    review: "Chaos engineering exercises hardened our services and improved runbook quality across teams.",
+    projectDetails: "Chaos Engineering",
+    results: ["Faster recovery", "Validated runbooks", "Higher SLA confidence"]
+  },
+
+  /* API Development (3 added) */
+  {
+    id: 43,
+    name: "Nora Jensen",
+    role: "Platform PM",
+    company: "DevKit",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "API Development",
+    review: "GraphQL gateway simplified client integration and reduced overfetching significantly.",
+    projectDetails: "GraphQL Gateway",
+    results: ["Simpler clients", "Lower bandwidth", "Better dev DX"]
+  },
+  {
+    id: 44,
+    name: "Felix Romero",
+    role: "Security Engineer",
+    company: "SafePay",
+    companyLogo: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "API Development",
+    review: "Robust rate-limiting and analytics help us detect and prevent abuse early.",
+    projectDetails: "API Security & Rate Limiting",
+    results: ["No abuse incidents", "Predictable throughput", "Detailed analytics"]
+  },
+  {
+    id: 45,
+    name: "Zara Khan",
+    role: "Realtime Lead",
+    company: "TickerNow",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "API Development",
+    review: "Their WebSocket APIs delivered sub-50ms latency for our trading platform — rock solid under load.",
+    projectDetails: "Realtime WebSocket APIs",
+    results: ["<50ms latency", "High stability", "Scalable fanout"]
+  },
+
+  /* Microservices (3 added) */
+  {
+    id: 46,
+    name: "Pavel Novak",
+    role: "Backend Lead",
+    company: "ScaleUp",
+    companyLogo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1520975661168-7f1b7b44d5de?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Microservices",
+    review: "Observability platform they implemented made debugging production issues painless.",
+    projectDetails: "Microservice Observability",
+    results: ["Reduced MTTR", "Centralized logs", "Better ops"]
+  },
+  {
+    id: 47,
+    name: "Marta Silva",
+    role: "Platform Engineer",
+    company: "NextGen",
+    companyLogo: "https://images.unsplash.com/photo-1545996124-1c6a9a6e6f9?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+    rating: 4,
+    service: "Microservices",
+    review: "Service mesh rollout improved our traffic control and mutual TLS setup — well executed.",
+    projectDetails: "Service Mesh Rollout",
+    results: ["Secure comms", "Traffic control", "Observability"]
+  },
+  {
+    id: 48,
+    name: "Kofi Mensah",
+    role: "Engineering Manager",
+    company: "FinServ",
+    companyLogo: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop",
+    rating: 5,
+    service: "Microservices",
+    review: "Decomposing the monolith into bounded contexts reduced team friction and sped up feature delivery.",
+    projectDetails: "Bounded Context Replatform",
+    results: ["Independent deploys", "Reduced coupling", "Faster delivery"]
   }
 ];
+
 
 const services = [
   "All Services",
