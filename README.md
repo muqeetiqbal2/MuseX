@@ -12,13 +12,13 @@
 
 ## Tech
 
-- ⚡ **Vite** for ultra-fast development  
-- 🔷 **TypeScript** for scalability & type safety  
-- 🎨 **Tailwind CSS** for beautiful responsive UI  
+- **Vite** for ultra-fast development  
+- **TypeScript** for scalability & type safety  
+- **Tailwind CSS** for beautiful responsive UI  
 
 ---
 
-## 🖼️ Preview
+## Preview
 
 | Home Page | Services Page | Portfolio Page |
 |------------|---------------|---------------|
@@ -26,7 +26,7 @@
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |-----------|---------|
@@ -37,7 +37,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Clone Project
 ```bash
@@ -61,7 +61,7 @@ npm run dev
 
 ---
 
-## 🏗️ Production Build
+## Production Build
 
 ### Build
 ```bash
@@ -75,7 +75,7 @@ npm run preview
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MuseX/
@@ -92,7 +92,7 @@ MuseX/
 └─ vite.config.ts
 ```
 
-## 🤝 Contributing
+## Contributing
 
 ### Create a feature branch
 ```bash
@@ -113,14 +113,15 @@ Open a Pull Request.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-## 👤 Author
+## Author
 
 **Muqeet Iqbal**  
 GitHub: https://github.com/muqeetiqbal2/MuseX
+
 
