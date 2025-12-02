@@ -1,24 +1,53 @@
 # MuseX
 
-[![Repo size](https://img.shields.io/github/repo-size/muqeetiqbal2/MuseX)](https://github.com/muqeetiqbal2/MuseX)
-[![Language: TypeScript](https://img.shields.io/badge/language-TypeScript-blue)](https://www.typescriptlang.org/)
-[![Built with Vite](https://img.shields.io/badge/Built%20With-Vite-purple)](https://vitejs.dev/)
-[![TailwindCSS](https://img.shields.io/badge/Styled%20With-TailwindCSS-38bdf8)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/muqeetiqbal2/MuseX" />
+  <img src="https://img.shields.io/badge/language-TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Built%20With-Vite-646CFF?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Styled%20With-TailwindCSS-38BDF8?logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
 
-> **MuseX** — A sleek, fast, modern software startup website built using **Vite + TypeScript + Tailwind CSS**.  
+<p align="center">
+  <img src="https://vitejs.dev/logo.svg" height="60" />
+  <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" height="60" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" height="60" />
+</p>
+
+<p align="center">
+ <b>MuseX</b> — A sleek, blazing-fast modern software startup website built using <b>Vite + TypeScript + Tailwind CSS</b>.
+</p>
 
 ---
 
-## Tech
+## Features
 
-- **Vite** for ultra-fast development  
-- **TypeScript** for scalability & type safety  
-- **Tailwind CSS** for beautiful responsive UI  
+- ⚡ Ultra-fast development powered by Vite  
+- 🔒 Type safety with TypeScript  
+- 🎨 Modern UI using Tailwind CSS  
+- 📱 Fully responsive design  
+- 🚀 Optimized production build  
 
 ---
 
-## Preview
+<p align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5jenA1dGNwa2V2cTM4cTA4NDd6bjJva2w2aWZrcWI3eHdsYnpmbSZlcD12MV9naWZzX3NlYXJjaCZjdT1n/qgQUggAC3Pfv687qPC/giphy.gif" width="600" />
+</p>
+
+---
+
+## Tech Stack
+
+| Logo | Technology | Purpose |
+|------|------------|----------|
+| <img src="https://vitejs.dev/logo.svg" height="40"/> | **Vite** | Lightning-fast bundling & dev server |
+| <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" height="40"/> | **TypeScript** | Scalable & strongly typed code |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" height="40"/> | **Tailwind CSS** | Utility-first modern styling |
+| 🌐 | **HTML / TS** | UI + Components |
+
+---
+
+## Preview Screenshots
 
 | Home Page | Services Page | Portfolio Page |
 |------------|---------------|---------------|
@@ -26,36 +55,23 @@
 
 ---
 
-## Tech Stack
-
-| Technology | Purpose |
-|-----------|---------|
-| **Vite** | Lightning-fast bundling & dev server |
-| **TypeScript** | Strongly typed JS for reliability |
-| **Tailwind CSS** | Modern utility-first styling |
-| **HTML / TS** | Component and UI structure |
-
----
-
 ## Getting Started
 
-### Clone Project
-```bash
-git clone https://github.com/muqeetiqbal2/MuseX.git
+### Clone Repository
+```
+git clone https://github.com/muqeetiqbal2/MuseX.git  
 cd MuseX
 ```
 
 ### Install Dependencies
-```bash
-npm install
-# or
-pnpm install
-# or
-yarn install
+```
+npm install  
+OR pnpm install  
+OR yarn install
 ```
 
-### Start Dev Server
-```bash
+### Start Development Server
+```
 npm run dev
 ```
 
@@ -63,49 +79,49 @@ npm run dev
 
 ## Production Build
 
-### Build
-```bash
+### Build  
+```
 npm run build
 ```
 
-### Preview Production Build
-```bash
+### Preview 
+```
 npm run preview
 ```
 
 ---
 
 ## Project Structure
-
 ```
-MuseX/
-├─ public/                  # Static assets (images, icons, audio)
-├─ src/                     # Project source
-│  ├─ assets/               # Images, SVGs, media
-│  ├─ components/           # UI components
-│  ├─ styles/               # Global styles
-│  └─ main.ts               # App entry point
-├─ index.html               # Main HTML file
-├─ package.json
-├─ tsconfig.json
-├─ tailwind.config.ts
-└─ vite.config.ts
+MuseX/  
+├─ public/                  — Static assets (images, icons)  
+├─ src/  
+│  ├─ assets/               — Images, SVGs  
+│  ├─ components/           — UI components  
+│  ├─ styles/               — Global styles  
+│  └─ main.ts               — App entry  
+├─ index.html               — Root HTML  
+├─ package.json  
+├─ tsconfig.json  
+├─ tailwind.config.ts  
+└─ vite.config.ts  
 ```
+---
 
 ## Contributing
 
-### Create a feature branch
-```bash
+### Create a Feature Branch 
+```
 git checkout -b feature-name
 ```
 
-### Commit changes
-```bash
+### Commit Changes 
+```
 git commit -m "Add feature"
 ```
 
-### Push to repository
-```bash
+### Push Changes  
+```
 git push origin feature-name
 ```
 
@@ -115,7 +131,7 @@ Open a Pull Request.
 
 ## License
 
-This project is licensed under the **MIT License**.
+Licensed under the **MIT License**.
 
 ---
 
@@ -123,5 +139,3 @@ This project is licensed under the **MIT License**.
 
 **Muqeet Iqbal**  
 GitHub: https://github.com/muqeetiqbal2/MuseX
-
-
